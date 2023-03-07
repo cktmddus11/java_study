@@ -1,4 +1,4 @@
-package stream;
+package javaStudy.stream;
 
 import java.util.stream.Stream;
 
