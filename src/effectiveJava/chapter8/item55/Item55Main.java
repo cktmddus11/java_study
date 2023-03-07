@@ -73,7 +73,7 @@ public class Item55Main {
     }*/
     // 컬렉션에서 최대값을 구해 Optional<E> 로 반환한다. - 스트림 버전
     public static <E extends Comparable<E>> Optional<E> max(Collection<E> c){
-        return c.stream().max(Comparator.naturalOrder()); // stream().max() 메서드가 Optional<T> 를 리턴해줌.
+        return c.stream().max(Comparator.naturalOrder()); // javaStudy.stream().max() 메서드가 Optional<T> 를 리턴해줌.
     }
 }
 class Score implements Comparable<Score> {
